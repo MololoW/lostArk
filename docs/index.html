@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-21 11:31:30
- * @LastEditTime: 2022-04-21 14:51:41
+ * @LastEditTime: 2022-04-21 20:00:33
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \study\docs\index.html
@@ -25,15 +25,24 @@
       loadNavbar: true,
       loadNavbar: 'nav.md',
       auto2top: true,
-      mergeNavbar: true,
       loadSidebar: true,
       loadSidebar: 'sidebar.md',
       subMaxLevel: 2,
       coverpage: true,
-      onlyCover: true
+      onlyCover: true,
+      // search: {
+      //   maxAge: 86400000,
+      //   paths: 'auto',
+      //   placeholder: '🍳本wiki中搜索',
+      //   noData: '暂无数据'
+      // }
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+  <script src="https://unpkg.com/element-ui/lib/index.js"></script>
 </body>
 </html>
